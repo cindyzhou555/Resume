@@ -1,0 +1,44 @@
+#name {
+  margin-bottom: 10px;
+  align-content: center;
+}
+
+/* {
+  padding: 0;
+  margin: 0;
+}
+*/
+.p {
+  padding: 10px;
+  margin: 10px;
+}
+
+header {
+  align-content: center;
+  line-height: normal;
+  display: block;
+}
+
+#page-wrap {
+  border: 30px solid;
+  padding: 30px;
+  border-image: linear-gradient(-20deg, #FFC0CB 0%, #F08080 100%)50;
+  font: Georgia, serif;
+  line-height: 1;
+}
+
+.h1, {
+  font-style: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+  align-content: center;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.2;
+  color: inherit;
+}
