@@ -1,44 +1,153 @@
-#name {
-  margin-bottom: 10px;
-  align-content: center;
-}
+ * {
+   margin: 0;
+   padding: 0;
+ }
 
- {
-  padding: 0;
-  margin: 0;
-}
+ #page-wrap {
+   border: 30px solid;
+   padding: 30px;
+   border-image: linear-gradient(-20deg, #FFC0CB 0%, #F08080 100%)50;
+ }
 
-.p {
+ /*------header-------*/
+ .contact {
+   margin: 20px;
+ }
+
+ .bg-navbar {
+   background-color: #F1C40F;
+   color: #ffffff;
+   padding-top: 15px;
+   text-align: center;
+ }
+
+ .navbar li {
+   display: inline;
+ }
+
+ header {
+   align-content: center;
+   line-height: 1.5;
+   display: block;
+   margin-left: auto;
+   margin-bottom: 2;
+ }
+
+ /*------body-------*/
+ /* .flex {
+   display: flex;
+   flex-direction: row;
+   flex-flow: nowrap;
+   justify-content: center;
+ } */
+
+ .row {
+  display: -webkit-flex;
+  display: flex;
   padding: 10px;
-  margin: 10px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  justify-content: center;
 }
 
-header {
-  align-content: center;
-  line-height: normal;
-  display: block;
+.column {
+  flex-flow: nowrap;
+
 }
 
-#page-wrap {
-  border: 30px solid;
-  padding: 30px;
-  border-image: linear-gradient(-20deg, #FFC0CB 0%, #F08080 100%)50;
-  font: Georgia, serif;
-  line-height: 1;
+
+
+ p{
+  color:#55555;
+  display: inline-block;
 }
 
-.h1, {
-  font-style: bold;
-  font-size: 40px;
-  margin-bottom: 10px;
-  align-content: center;
-}
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 1.2;
-  color: inherit;
+
+
+ .edu {
+   flex: 1;
+   margin-right: 30px;
+   padding: 20px;
+   margin-left: 20px;
+   width: 500px;
+ }
+
+ .research {
+   flex: 1;
+   margin-right: 30px;
+   padding: 20px;
+   margin-left: 20px;
+   width: 500px;
+ }
+
+ .intern {
+   flex: 1;
+   margin-right: 30px;
+   padding: 20px;
+   margin-left: 20px;
+   width: 500px;
+ }
+
+ .Skills {
+   flex: 1;
+   margin-right: 30px;
+   padding: 20px;
+   margin-left: 20px;
+   width: 500px;
+ }
+
+li {
+   list-style: none;
+ }
+
+ span.location_time {
+   float: right;
+   color: #555555;;
+   text-align: right;
+   font-size: 18px;
+ }
+
+ .bg-edu {
+   background-color: #FCF3CF;
+   color: #555555;
+ }
+
+ .bg-re {
+   background-color: #F9E79F;
+   color: #555555;
+ }
+
+ .bg-ie {
+   background-color: #F7DC6F;
+   color: #555555;
+ }
+
+ .bg-skill {
+   background-color: #F4D03F;
+   color: #555555;
+ }
+
+
+ body {
+   font: 18px Georgia, serif;
+   line-height: 24px;
+   /* margin: 10px 150px; */
+ }
+
+ .footer{
+   text-align: center;
+ }
+
+
+ @media screen and (max-width: 1125px) {
+ #page-wrap{
+   border: 8px solid;
+   border-image: linear-gradient(-20deg, #FFC0CB 0%, #F08080 100%)50;
+ }
+ .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 }

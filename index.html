@@ -5,85 +5,139 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+  <script src="https://kit.fontawesome.com/b4410c53a6.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="custom.css">
   <title>Resume</title>
 </head>
 
 <body>
   <div id="page-wrap">
-    <header>
-
-      <div id="name">
-        <h1>Shuyue Zhou</h1>
+    <header class="text-center">
+      <img src="images/IMG_2976.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Me" width="150" height="150">
+      <h1>Shuyue Zhou</h1>
+      <div class="contact">
+        <i class="fas fa-phone-alt fa-lg fa-fwv spin"> </i><a href="857 272-2957">(857) 272-2957</a>
+        <i class="fas fa-envelope fa-lg fa-fw spin"></i><a href="mailto:sz2845@tc.columbia.edu" target="_blank">sz2845@tc.columbia.edu</a>
+        <br>
+        <i class="fas fa-home fa-lg fa-fw spin"></i>1230 Amsterdam Ave. apt 607, New York, NY 10027</a>
       </div>
-      <p>1230 Amsterdam Ave. apt 607 | New York, NY 10027 | (857)272-2957</p>
-      <p>sz2845@tc.columbia.edu</p>
-
-
+      <p>Hello! I am garduate student who loves baking, handcrafting, traveling, and photographing. </p>
     </header>
 
-    <h2>Education</h2>
-    <h3>Columbia University, Teachers College</h3>
-    <p>
-      New York, NY
-    </p>
-    <p>
-      Master of Arts in Design & Development of Digital Games
-    </p>
-    <p>September, 2019-Present</p>
-    <h3>Boston College, Lynch School of Education</h3>
-    <p>Chestnut Hill, MA</p>
-    <p>Bachelor of Arts in Applied Psychology and Human Development & Computer Science</p>
-    <p>August, 2015 – May, 2019</p>
-    <ul>
-      <li>Honors: Dean’s List; English Language Learner Award, Honorable Mention</li>
-      <li>Relevant Coursework: Child Growth and Development; Research Methods & Analyses; Adolescent Psychology; Research Practicum</li>
-    </ul>
-    <h2>Research Experience</h2>
-    <h3>Boston College Lynch School of Education</h3>
-    <p>Chestnut Hill, MA</p>
-    <p>Undergraduate Research Assistant (15 hours/week)</p>
-    <p>June, 2017 - Present</p>
-    <ul>
-      <li>Conducted field observations and semi-structured interviews with students in a K-8 school and public high school. </li>
-      <li>Wrote literature reviews on topics of digital storytelling in middle schools and teacher education and the whole-child/formative education. </li>
-      <li>Collaborated with Prof. Deoksoon Kim in a paper about digital storytelling in teacher education.</li>
-      <li>Transcribed, manually and digitally coded and analyzed interview data. </li>
-      <li>Conducted visual grammar analysis of digital stories.</li>
-      <li>Provided field support of making digital stories via WeVideo, collected artifacts, and conducted field observations in the formative education with digital storytelling program in a K-8 school. </li>
-      <li>Brainstormed activities for an innovated science textbook for grade 6-10 and helped with revises. </li>
-      <li>Building and maintaining a website based on Wix, including features like commenting, blogging, community etc. </li>
-    </ul>
-    <h2>Internship Experiences</h2>
-    <h3>Technology Support</h3>
-    <p>Chongwen Shijicheng Elementary School</p>
-    <p>Hangzhou, China</p>
-    <p>Internship</p>
-    <p>June, 2019 – July, 2019</p>
-    <ul>
-      <li>Managed organizational tasks such as preparing program materials.</li>
-      <li>Review the curriculums for extra-curricular programs.</li>
-      <li>Review English students comments by foreign teachers.</li>
-      <li>Helped instruct using VR in 3D printing class and led group discussions.</li>
-      <li>Instructed cooking classes.</li>
-    </ul>
-    <h3>Office of Employ Development</h3>
-    <p>Boston College Human Resources</p>
-    <p>Chestnut Hill, MA</p>
-    <p>Internship</p>
-    <p>September, 2018 – May, 2019</p>
-    <ul>
-      <li>Managed organizational tasks such as preparing program materials, creating StrengthFinder Team Strengths Grid reports. </li>
-      <li>Researched for employee development programs available at other institutions.</li>
-      <li>Researched for professional development related materials, such as creating professional development podcast lists to be reviewed to send to the BC community. </li>
-    </ul>
-    <h3>Skills</h3>
-    <ul>
-      <li>Computer skills: Java, OCaml, HTML, CSS, JavaScript, C; Linux, distributed system, Java framework; Object-oriented design </li>
-      <li>Interview conduction, transcription and qualitative data coding</li>
-      <li>Language skills: English (fluent), Mandarin (fluent), French (beginner)</li>
-      <li>Adept with Microsoft Office Suite</li>
-    </ul>
+    <nav class="navbar navbar-default bg-navbar">
+      <div class="container">
+        <ul>
+          <li><a href="#Education">&nbsp Education &nbsp</a></li>
+          <li><a href="#Research Experiences">&nbsp Research Experiences &nbsp</a></li>
+          <li><a href="#Internship Experiences">&nbsp Internship Experience &nbsp</a></li>
+          <li><a href="#Skills">&nbsp Skills &nbsp</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="column">
+        <div class="box edu bg-edu">
+          <a name="Education"></a>
+          <h2>Education</h2>
+          <ul class="list">
+            <li>
+              <h4><strong>Columbia University, Teachers College</strong><span class="location_time">Sep.2019 - now <br>
+                  New York, NY</span> </h4>
+              <p>M.A. in Design & Development of Digital Games</p>
+            </li>
+
+            <li>
+              <h4><strong>Boston College, Lynch School of Education </strong><span class="location_time">Sep.2014 - May.2019 <br>
+                  Chestnut Hill, MA</span> </h4>
+              <p>B.A. in Applied Psychology and Human Development & B.A. in Computer Science</p>
+              <ul>
+                <!-- <li>Honors: Dean’s List; English Language Learner Award, Honorable Mention</li> -->
+                <li>Relevant Coursework: Child Growth and Development; Research Methods & Analyses; Adolescent Psychology; Research Practicum</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="box research bg-re">
+          <a name="Research Experiences"></a>
+          <h2>Research Experiences</h2>
+          <h4><strong>Undergraduate Research Assistant</strong> (15 hours/week)<span class="location_time">June, 2017 - Sep., 2019<br>
+              Chestnut Hill, MA</span> </h4>
+          <p>Boston College Lynch School of Education</p>
+          <ul>
+            <li>Conducted field observations and semi-structured interviews with students in a K-8 school and public high school. </li>
+            <li>Wrote literature reviews on topics of digital storytelling in middle schools and teacher education and the whole-child/formative education. </li>
+            <li>Collaborated with Prof. Deoksoon Kim in a paper about digital storytelling in teacher education.</li>
+            <li>Transcribed, manually and digitally coded and analyzed interview data. </li>
+            <!-- <li>Conducted visual grammar analysis of digital stories.</li>
+            <li>Provided field support of making digital stories via WeVideo, collected artifacts, and conducted field observations in the formative education with digital storytelling program in a K-8 school. </li>
+            <li>Brainstormed activities for an innovated science textbook for grade 6-10 and helped with revises. </li>
+            <li>Building and maintaining a website based on Wix, including features like commenting, blogging, community etc. </li> -->
+          </ul>
+        </div>
+        </div>
+      <div class="column">
+        <div class="box intern bg-ie">
+          <a name="Internship Experiences"></a>
+          <h3>Internship Experiences</h3>
+          <h4><strong>Technology Support</strong>, Internship<span class="location_time">June, 2019 – July, 2019<br>
+              Hangzhou, China</span> </h4>
+          <p>Chongwen Shijicheng Elementary School</p>
+          <ul>
+            <li>Managed organizational tasks such as preparing program materials.</li>
+            <li>Review the curriculums for extra-curricular programs.</li>
+            <li>Review English students comments by foreign teachers.</li>
+            <li>Helped instruct using VR in 3D printing class and led group discussions.</li>
+            <li>Instructed cooking classes.</li>
+          </ul>
+          <h4><strong>Office of Employ Development</strong>, Internship<span class="location_time">September, 2018 – May, 2019<br>
+              Chestnut Hill, MA</span> </h4>
+          <p>Boston College Human Resources</p>
+          <ul>
+            <li>Managed organizational tasks such as preparing program materials, creating StrengthFinder Team Strengths Grid reports. </li>
+            <li>Researched for employee development programs available at other institutions.</li>
+            <li>Researched for professional development related materials, such as creating professional development podcast lists to be reviewed to send to the BC community. </li>
+          </ul>
+        </div>
+        <div class="box Skills bg-skill">
+          <a name="Skills"></a>
+          <h3>Skills</h3>
+          <ul>
+            <li>Computer skills: Java, OCaml, HTML, CSS, JavaScript, C; Linux, distributed system, Java framework; Object-oriented design </li>
+            <li>Interview conduction, transcription and qualitative data coding</li>
+            <li>Language skills: English (fluent), Mandarin (fluent), French (beginner)</li>
+            <li>Adept with Microsoft Office Suite</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+          <a class="fb-ic" href="https://www.facebook.com/shuyue.zhou.555">
+            <i class="fab fa-facebook-f fa-2x">&nbsp&nbsp</i>
+          </a>
+
+          <a class="ins-ic" href="https://www.instagram.com/shuyuezhou1996/">
+            <i class="fab fa-instagram fa-2x"> &nbsp&nbsp</i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
   </div>
 
 
